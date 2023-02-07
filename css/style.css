@@ -18,22 +18,6 @@
     flex-grow: 4;
 }
 
-.card_white {
-    background-color: white;
-}
-
-.card_gray {
-    background-color: lightgrey;
-}
-
-.card_black {
-    background-color: black;
-}
-
-.card_blue {
-    background-color: blue;
-}
-
 .nav_footer {
     display: flex;
     justify-content: space-between;
@@ -47,7 +31,7 @@
 }
  */
 /* --------DEBUG--------------------- */
-.dbg #app_header {
+/* .dbg #app_header {
     background-color: rgba(81, 0, 255, 0.464);
     width: 100%;
     height: 100px;
@@ -64,7 +48,7 @@
     width: 100%;
     height: 20px;
 }
-
+ */
 /* ---regionend------------------- */
 
 /* HEADER */
@@ -121,6 +105,14 @@
     height: 1000px;
     background-color: green;
 }
+
+.item4 .col100{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 /* FOOTER */
 
