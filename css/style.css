@@ -25,20 +25,28 @@ margin: auto;
 display: flex;
 }
 
-.logo, .login
-{
+.logo, .login{
 flex-grow: 1;
 }
 
-.main-menu
-{
+.main-menu{
 flex-grow: 4;
 text-align: center;
 }
 
-.login
-{
+.login{
 text-align: end;
+}
+
+ul.listline{ 
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.main-menu a{
+  color: white;
 }
 
 /* #endregion Utility */
