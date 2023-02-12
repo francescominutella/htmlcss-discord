@@ -178,14 +178,18 @@ ul.listline {
 
 /* #region main */
 
-
-
 .section_image {
   width: 60%;
 }
 
 .section_text {
   width: 40%;
+}
+
+section .section_text > h2
+{
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 
 #easymeeting {
