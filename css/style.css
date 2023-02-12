@@ -49,6 +49,16 @@ ul.listline{
   color: white;
 }
 
+.btn{
+  border-radius: 2rem;
+  display: inline-block;/* <a> ancor tag: quando deve assomigliare a un button sempre INLINE-BLOCK! */
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  background-color: var(--ds-light);
+  color: var(--ds-dark)
+}
+
+
 /* #endregion Utility */
 
 /* #region dbg */
@@ -107,6 +117,12 @@ background-color: aquamarine;
 border: 1px dashed red;
 }
 /* #endregion dbg */
+
+/* #region header */
+#app_header{
+  padding: 1rem;
+}
+/* #endregion header */
 
 /* #region main */
 
