@@ -56,6 +56,30 @@ ul.listline {
   color: var(--ds-dark)
 }
 
+.btn-lg
+{
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.btn-light
+{
+  background-color: var(--ds-light);
+  color: var(--ds-dark)
+}
+
+.btn-dark
+{
+  background-color: var(--ds-dark);
+  color: var(--ds-lighter)
+}
+
+.btn-primary
+{
+  background-color: var(--ds-primary);
+  color: var(--ds-lighter);
+}
+
 .textcenter{
   text-align: center;
 }
