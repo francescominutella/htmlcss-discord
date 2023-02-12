@@ -1,44 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Discord Structure</title>
-    
         <link rel="stylesheet" href="./css/style.css">
+        <title>Document</title>
     </head>
+    <body class="dbg">
 
-    <body class="debug">
-
-        <header id="app-header">
-            <div class="container d-flex wrap">
-                <div class="logo">
-                    <img src="./img/logo.svg" alt="">
-                </div>
-                <!-- /.logo -->
-                <nav class="menu">
-                    <ul class="list-inline">
-                        <li><a href="#">Scarica</a></li>
-                        <li><a href="#">Perché Discord</a></li>
-                        <li><a href="#">Nitro</a></li>
-                        <li><a href="#">Sicurezza</a></li>
-                        <li><a href="#">Assistenza</a></li>
-                    </ul>
+        <header id="app_header">
+            <div class="container d-flex">
+                <div class="logo">Logo</div>
+                <nav class="main-menu">
+                    Menu
                 </nav>
-                <!-- /.login -->
+                <div class="login">
+                    Login
+                </div>
             </div>
-
         </header>
-        <!-- /#app-header -->
-        <main id="app-main">
+        <!-- /#app_header -->
+
+        <main id="app_main">
+
+            <div class="jumbotron">
+                <div class="jumbo_text"></div>
+            </div>
+            <!-- jumbotron str -->
+
+            <section id="safetalk">
+                <div class="container d-flex">
+                    <div class="section_image"></div>
+                    <div class="section_text"></div>
+                </div>
+            </section>
+            <!-- /#safetalk -->
+            <section id="easymeeting">
+                <div class="container d-flex">
+                    <div class="section_text"></div>
+                    <div class="section_image"></div>
+                </div>
+            </section>
+            <!-- /#easymeeting -->
+            <section id="fandom">
+                <div class="container d-flex">
+                    <div class="section_image"></div>
+                    <div class="section_text"></div>
+                </div>
+            </section>
+            <!-- /#fandom -->
         </main>
+        <!-- /#app_main -->
+        <footer id="app_footer">
+            <div class="container">
+                <div class="top d-flex">
+                    <div class="item40"></div>
+                    <div class="item20"></div>
+                    <div class="item20"></div>
+                    <div class="item20"></div>
+                    <div class="item20"></div>
+                </div>
+                <div class="bottom d-flex">
+                    <div class="logo">Logo</div>
+                    <div class="register">Register</div>
+                </div>
+            </div>
+            <!-- top d-flex-->
 
-        <!-- /#app-main -->
-        <footer id="app-footer">
+
+            <!-- bottom justify-content:space-between -->
         </footer>
-        <!-- /#app-footer -->
-    </body>
 
+        <!-- /#app_footer -->
+
+    </body>
 </html>
