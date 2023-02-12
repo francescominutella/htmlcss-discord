@@ -5,53 +5,52 @@
   box-sizing: border-box;
 }
 
-:root
-{
+:root {
   --ds-dark: #22272b;
   --ds-primary: #8ea0e0;
   --ds-light: #f7f7f6;
   --ds-lighter: white;
 }
 
-.container
-{
-width: 70%;
-max-width: 1140px;
-margin: auto;
+.container {
+  width: 70%;
+  max-width: 1140px;
+  margin: auto;
 }
 
-.d-flex
-{
-display: flex;
+.d-flex {
+  display: flex;
 }
 
-.logo, .login{
-flex-grow: 1;
+.logo,
+.login {
+  flex-grow: 1;
 }
 
-.main-menu{
-flex-grow: 4;
-text-align: center;
+.main-menu {
+  flex-grow: 4;
+  text-align: center;
 }
 
-.login{
-text-align: end;
+.login {
+  text-align: end;
 }
 
-ul.listline{ 
+ul.listline {
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
 
-.main-menu a{
+.main-menu a {
   color: white;
 }
 
-.btn{
+.btn {
   border-radius: 2rem;
-  display: inline-block;/* <a> ancor tag: quando deve assomigliare a un button sempre INLINE-BLOCK! */
+  display: inline-block;
+  /* <a> ancor tag: quando deve assomigliare a un button sempre INLINE-BLOCK! */
   padding: 0.2rem 0.5rem;
   font-size: 1rem;
   background-color: var(--ds-light);
@@ -63,106 +62,99 @@ ul.listline{
 
 /* #region dbg */
 
-.dbg > header
-{
-background-color: aquamarine;
+.dbg>header {
+  background-color: aquamarine;
 }
 
-.dbg .jumbotron
-{
-background-color: blue;
-height: 500px;
+.dbg .jumbotron {
+  background-color: blue;
+  height: 500px;
 }
 
-.dbg .jumbo_text
-{
-height: 100%;
-min-width: 60%;
-background-color: green;
+.dbg .jumbo_text {
+  height: 100%;
+  min-width: 60%;
+  background-color: green;
 }
 
-.dbg .section_image
-{
-height: 350px;
-background-color: pink;
+.dbg .section_image {
+  height: 350px;
+  background-color: pink;
 }
 
-.dbg .section_text
-{
-height: 350px;
-background-color:dodgerblue;
+.dbg .section_text {
+  height: 350px;
+  background-color: dodgerblue;
 }
 
-.dbg #reliable .container
-{
-height: 500px;
-background-color: green;
+.dbg #reliable .container {
+  height: 500px;
+  background-color: green;
 }
 
-.dbg #app-footer
-{
-height: 500px;
-background-color: #333;
+.dbg #app-footer {
+  height: 500px;
+  background-color: #333;
 }
 
-.dbg .item40
-{
-background-color:blueviolet;
-height: 400px;
+.dbg .item40 {
+  background-color: blueviolet;
+  height: 400px;
 }
 
-.dbg .item20
-{
-background-color: aquamarine;
-border: 1px dashed red;
+.dbg .item20 {
+  background-color: aquamarine;
+  border: 1px dashed red;
 }
+
 /* #endregion dbg */
 
 /* #region header */
-#app_header{
+#app_header {
   padding: 1rem;
+  background-color: #255ee8;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
+
 /* #endregion header */
 
 /* #region main */
 
-.jumbotron 
-{
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 3rem;
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.section_image
-{
-width: 60%;
+.section_image {
+  width: 60%;
 }
 
-.section_text
-{
-width: 40%;
+.section_text {
+  width: 40%;
 }
-#easymeeting
-{
-background-color: gainsboro;
+
+#easymeeting {
+  background-color: gainsboro;
 }
 
 /* #endregion main */
 
 /* #region footer */
-.item40{
+.item40 {
   width: 40%;
 }
 
-.item20
-{
-width: calc(100% / 4);
+.item20 {
+  width: calc(100% / 4);
 }
 
-.bottom
-{
-border-top: 1px solid black;
-justify-content: space-between;
+.bottom {
+  border-top: 1px solid black;
+  justify-content: space-between;
 }
+
 /* #endregion footer */
