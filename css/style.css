@@ -213,3 +213,56 @@ section .section_text > h2
 }
 
 /* #endregion footer */
+#app-footer
+{
+  padding: 1rem 0;
+  background-color: var(--ds-dark);
+  color: var(--ds-lighter);
+}
+
+#app-footer .talk
+{
+  width: 40%;
+}
+
+.item
+{
+  width: calc(100% / 4);
+}
+
+#app-footer ul
+{
+  list-style: none;
+}
+
+#app-footer h3,
+#app-footer h4
+{
+  color: var(--ds-primary);
+
+}
+
+#app-footer .bottom
+{
+  margin-top: 1rem;
+  border-top: 1px solid gray;
+  padding: 1rem 0;
+  justify-content: space-between;
+}
+
+#app-footer .language
+{
+  font-size: 14px;
+  margin: 1.5rem 0;
+}
+
+.language > span
+{
+  margin: 0 0.5rem;
+}
+
+.social
+{
+  display: flex;
+  gap: 0.75rem;
+}
